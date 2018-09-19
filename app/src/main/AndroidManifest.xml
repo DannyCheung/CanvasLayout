@@ -16,6 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".example.ViewNodeActivity">
+        </activity>
+
+        <activity android:name=".example.TextNodeActivity">
+        </activity>
+
+        <activity android:name=".example.ImageNodeActivity">
+        </activity>
+
+        <activity android:name=".example.NetImageNodeActivity">
+        </activity>
+
     </application>
 
 </manifest>
