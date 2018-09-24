@@ -1,11 +1,11 @@
-package com.dannycheung.canvaslayout.example;
+package com.dannycheung.canvaslayoutdemo.example;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
-public class NetImageNodeActivity extends AppCompatActivity {
+public class ImageNodeActivity extends AppCompatActivity {
 
     void render() {
 
@@ -19,7 +19,7 @@ public class NetImageNodeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         android.support.v7.app.ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
-            actionBar.setTitle("NetImageNode");
+            actionBar.setTitle("ImageNode");
             actionBar.setHomeButtonEnabled(true);
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
@@ -37,5 +37,6 @@ public class NetImageNodeActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
 
 }

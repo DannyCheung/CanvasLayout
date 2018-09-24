@@ -1,14 +1,14 @@
-package com.dannycheung.canvaslayout;
+package com.dannycheung.canvaslayoutdemo;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.dannycheung.canvaslayout.example.ImageNodeActivity;
-import com.dannycheung.canvaslayout.example.NetImageNodeActivity;
-import com.dannycheung.canvaslayout.example.TextNodeActivity;
-import com.dannycheung.canvaslayout.example.ViewNodeActivity;
+import com.dannycheung.canvaslayoutdemo.example.ImageNodeActivity;
+import com.dannycheung.canvaslayoutdemo.example.NetImageNodeActivity;
+import com.dannycheung.canvaslayoutdemo.example.TextNodeActivity;
+import com.dannycheung.canvaslayoutdemo.example.ViewNodeActivity;
 
 public class MainActivity extends AppCompatActivity {
 
